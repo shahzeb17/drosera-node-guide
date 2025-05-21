@@ -85,6 +85,7 @@ cd my-drosera-trap
 **Replace `Github_Email` & `Github_Username`:**
 ```bash
 git config --global user.email "Github_Email"
+
 git config --global user.name "Github_Username"
 ```
 - Replace `Github_Email` with your own `Github Email` and `Github_Username` with your own `Github Username`. You can create one at ([Github](https://github.com/))
