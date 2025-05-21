@@ -273,14 +273,11 @@ If you are currently running via old `systemd` method, stop it:
 ```
 sudo systemctl stop drosera
 sudo systemctl disable drosera
-```
-```
+
 git clone https://github.com/0xmoei/Drosera-Network
-```
-```
+
 cd Drosera-Network
-```
-```
+
 cp .env.example .env
 ```
 Edit `.env` file:
