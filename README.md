@@ -11,7 +11,7 @@ This guide provides a comprehensive walkthrough for participating in the Drosera
 - 4 GB RAM
 - 20 GB Disk Space
 - You can use Free Google Cloud VPS - https://cloud.google.com/products/compute
-- Create your own `Ethereum Holesky RPC` in ([Ankr](https://www.ankr.com/rpc/)) or [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/)
+- Create your own `Ethereum Holesky RPC` in ([Ankr](https://www.ankr.com/rpc/)) (Recommended) or [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/)
 
 ### Install Dependecies
 ```
