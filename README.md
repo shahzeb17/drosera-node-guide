@@ -11,7 +11,7 @@ This guide provides a comprehensive walkthrough for participating in the Drosera
 - 4 GB RAM
 - 20 GB Disk Space
 - You can use Free Google Cloud VPS - https://cloud.google.com/products/compute
-- Create your own `Ethereum Holesky RPC` in ([Ankr](https://www.ankr.com/rpc/)) (Recommended) or [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/)
+- Create your own `Ethereum Holesky RPC` in ([Ankr](https://www.ankr.com/rpc/)) **(Recommended)** or [QuickNode](https://dashboard.quicknode.com/) or [Alchemy](https://dashboard.alchemy.com/)
 
 ### Install Dependecies
 ```
@@ -112,7 +112,7 @@ forge build
 ```bash
 DROSERA_PRIVATE_KEY=xxx drosera apply --eth-rpc-url RPC
 ```
-- Replace `xxx` with your EVM wallet `privatekey` (Ensure it's funded with `Holesky ETH`) and `RPC` with your own Ethereum Holesky rpc by registering and creating one in ([Ankr](https://www.ankr.com/rpc/)) or [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/)
+- Replace `xxx` with your EVM wallet `privatekey` (Ensure it's funded with `Holesky ETH`) and `RPC` with your own Ethereum Holesky rpc by registering and creating one in ([Ankr](https://www.ankr.com/rpc/)) **(Recommended)** or [QuickNode](https://dashboard.quicknode.com/) or [Alchemy](https://dashboard.alchemy.com/)
 
 - Enter the command, when prompted, write `ofc` and press Enter.
 
@@ -176,7 +176,7 @@ whitelist = ["Operator_Address"]
 ```bash
 DROSERA_PRIVATE_KEY=xxx drosera apply --eth-rpc-url RPC
 ```
-- Replace `xxx` with your EVM wallet `privatekey` (Ensure it's funded with `Holesky ETH`) and `RPC` with your own Ethereum Holesky rpc
+- Replace `xxx` with your EVM wallet `privatekey` (Ensure it's funded with `Holesky ETH`) and `RPC` with your own Ethereum Holesky rpc by registering and creating one in ([Ankr](https://www.ankr.com/rpc/)) **(Recommended)** or [QuickNode](https://dashboard.quicknode.com/) or [Alchemy](https://dashboard.alchemy.com/)
 
 Your Trap should be private now with your operator address whitelisted internally.
 
@@ -301,7 +301,7 @@ Edit `docker-compose.yaml` file:
 ```bash
 nano docker-compose.yaml
 ```
-* Replace default `--eth-rpc-url` to your private Ethereum Holesky rpc by registering and creating one in ([Ankr](https://www.ankr.com/rpc/)) or [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/)
+* Replace default `--eth-rpc-url` to your private Ethereum Holesky rpc by registering and creating one in ([Ankr](https://www.ankr.com/rpc/)) **(Recommended)** or [QuickNode](https://dashboard.quicknode.com/) or [Alchemy](https://dashboard.alchemy.com/)
 * To save: `CTRL`+`X`, `Y` & `ENTER`.
 
 ### 6-1-2: Run Operator
@@ -350,7 +350,7 @@ screen -r drosera
 Enter this command in the terminal, But first replace:
 * `PV_KEY` with your `privatekey`
 * `VPS_IP` with your solid vps IP (without anything else)
-* Replace default `RPC` to your private ([Ankr](https://www.ankr.com/rpc/)) or [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/)
+* Replace default `RPC` to your private ([Ankr](https://www.ankr.com/rpc/)) or [QuickNode](https://dashboard.quicknode.com/) or [Alchemy](https://dashboard.alchemy.com/)
 ```bash
 sudo tee /etc/systemd/system/drosera.service > /dev/null <<EOF
 [Unit]
