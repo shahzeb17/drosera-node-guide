@@ -1,4 +1,4 @@
-# drosera-node-guide
+# Drosera-node-guide
 This guide provides a comprehensive walkthrough for participating in the Drosera testnet. It covers the following key steps:
 
 1. Installing the Drosera Command-Line Interface (CLI)
