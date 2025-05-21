@@ -86,6 +86,8 @@ cd my-drosera-trap
 git config --global user.email "Github_Email"
 git config --global user.name "Github_Username"
 ```
+- Replace `Github_Email` with your own `Github Email` and `Github_Username` with your own `Github Username` and creating one in ([Github](https://github.com/))
+
 **Initialize Trap**:
 ```
 forge init -t drosera-network/trap-foundry-template
@@ -305,14 +307,21 @@ nano docker-compose.yaml
 docker compose up -d
 ```
 
-### 6-1-3: Check health
+### 6-1-3: Create Screen
+```
+screen -S drosera
+```
+
+### 6-1-4: Check health
 ```
 docker logs -f drosera-node
 ```
 
 ![Image](https://github.com/user-attachments/assets/b0456503-1aaa-4d97-af66-ba33b3a050bb)
 
->  No problem if you are receiveing `WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers`
+> No problem if you are receiveing `WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers`
+
+> Detatch the screen by `CTRL A + D`
 
 ### 6-1-4: Optional Docker commands
 ```console
@@ -323,6 +332,11 @@ docker compose down -v
 # Restart node
 cd Drosera-Network
 docker compose up -d
+```
+
+```console
+# Reattach Screen
+screen -r drosera
 ```
 
 **Now running your node using `Docker`, you can Jump to step 7.**
@@ -370,7 +384,12 @@ sudo systemctl enable drosera
 sudo systemctl start drosera
 ```
 
-### 6-2-3: Check Node Health
+### 6-2-3: Create Screen
+```
+screen -S drosera
+```
+
+### 6-2-4: Check Node Health
 ```console
 journalctl -u drosera.service -f
 ```
@@ -378,6 +397,8 @@ journalctl -u drosera.service -f
 ![Image](https://github.com/user-attachments/assets/b0456503-1aaa-4d97-af66-ba33b3a050bb)
 
 > !! No problem if you are receiveing `WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers`
+
+> Detatch the screen by `CTRL A + D` 
 
 ### 6-2-4: Optional commands
 ```console
@@ -387,6 +408,12 @@ sudo systemctl stop drosera
 # Restart node
 sudo systemctl restart drosera
 ```
+
+```console
+# Reattach Screen
+screen -r drosera
+```
+
 **Now running your node using `SystemD`, you can Jump to step 7.**
 ---
 
