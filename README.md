@@ -106,7 +106,7 @@ forge build
 ```
 - skip warnings!
 
-[image]
+![Image](https://github.com/user-attachments/assets/6e0a395f-9668-4727-b789-77f5c4238be9)
 
 **Deploy Trap**:
 ```bash
