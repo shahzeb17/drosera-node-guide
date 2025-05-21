@@ -119,7 +119,6 @@ DROSERA_PRIVATE_KEY=xxx drosera apply --eth-rpc-url RPC
 - **Existing Users**
   - If you've deployed a trap with your wallet previously, then you need to add your trap address to `drosera.toml` file, by adding this line: `address = "TRAP_ADDRESS"` in the bottom.
   - Ensure you replace `TRAP_ADDRESS` with your own trap address.
-  - If you don't know how to get your trap address, Follow this [step](https://github.com/0xmoei/Drosera-Network/blob/main/README.md#-error-apply-config-failed).
   - Finally, as an existing user, Ensure you filled out `drosera.toml` bottom lines like this:
   ```
   whitelist = ["Operator1_Address","Operator2_Address"]
