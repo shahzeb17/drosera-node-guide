@@ -86,7 +86,7 @@ cd my-drosera-trap
 git config --global user.email "Github_Email"
 git config --global user.name "Github_Username"
 ```
-- Replace `Github_Email` with your own `Github Email` and `Github_Username` with your own `Github Username` and creating one in ([Github](https://github.com/))
+- Replace `Github_Email` with your own `Github Email` and `Github_Username` with your own `Github Username`. You can create one at ([Github](https://github.com/))
 
 **Initialize Trap**:
 ```
