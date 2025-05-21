@@ -51,30 +51,25 @@ sudo docker run hello-world
 **Drosera CLI**:
 ```bash
 curl -L https://app.drosera.io/install | bash
-```
-```
+
 source /root/.bashrc
-```
-```
+
 droseraup
 ```
 
 **Foundry CLI**:
 ```
 curl -L https://foundry.paradigm.xyz | bash
-```
-```
+
 source /root/.bashrc
-```
-```
+
 foundryup
 ```
 
 **Bun:**
 ```
 curl -fsSL https://bun.sh/install | bash
-```
-```
+
 source /root/.bashrc
 ```
 
@@ -83,8 +78,7 @@ source /root/.bashrc
 ## 2. Deploy Contract & Trap
 ```bash
 mkdir my-drosera-trap
-```
-```bash
+
 cd my-drosera-trap
 ```
 **Replace `Github_Email` & `Github_Username`:**
@@ -103,8 +97,7 @@ curl -fsSL https://bun.sh/install | bash
 source /root/.bashrc
 
 bun install
-```
-```bash
+
 forge build
 ```
 - skip warnings!
