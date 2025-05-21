@@ -132,12 +132,18 @@ DROSERA_PRIVATE_KEY=xxx drosera apply --eth-rpc-url RPC
 
 2. Click on `Traps Owned` to see  your deployed Traps OR search your Trap address.
 
-[image]
+![Image](https://github.com/user-attachments/assets/bd88c3d0-1744-4297-b09c-5f95eb4f13b1)
+
+![Image](https://github.com/user-attachments/assets/3a081122-9a6a-4c2d-945d-40429ab4baf2)
 
 ## 4. Bloom Boost Trap
 Open your Trap on Dashboard and Click on `Send Bloom Boost` and deposit some `Holesky ETH` on it.
 
-[image]
+![Image](https://github.com/user-attachments/assets/97b27a80-3779-4d6f-a421-d3ab9c8c077f)
+
+![Image](https://github.com/user-attachments/assets/278ccbc2-49af-4ecb-8a68-5e7bbf5965f6)
+
+![Image](https://github.com/user-attachments/assets/5c8b41e7-09eb-434e-b229-a449c922599b)
 
 ## 5. Fetch Blocks
 ```bash
@@ -170,7 +176,7 @@ DROSERA_PRIVATE_KEY=xxx drosera apply --eth-rpc-url RPC
 
 Your Trap should be private now with your operator address whitelisted internally.
 
-[image]
+![Image](https://github.com/user-attachments/assets/44b75fdf-6e71-468c-bbfd-0f7854df89b0)
 
 ---
 
@@ -304,7 +310,7 @@ docker compose up -d
 docker logs -f drosera-node
 ```
 
-[image]
+![Image](https://github.com/user-attachments/assets/b0456503-1aaa-4d97-af66-ba33b3a050bb)
 
 >  No problem if you are receiveing `WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers`
 
@@ -369,7 +375,7 @@ sudo systemctl start drosera
 journalctl -u drosera.service -f
 ```
 
-[image]
+![Image](https://github.com/user-attachments/assets/b0456503-1aaa-4d97-af66-ba33b3a050bb)
 
 > !! No problem if you are receiveing `WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers`
 
@@ -387,13 +393,13 @@ sudo systemctl restart drosera
 ## 7. Opt-in Trap
 In the dashboard., Click on `Opt in` to connect your operator to the Trap
 
-[image]
+![Image](https://github.com/user-attachments/assets/c6fa2d80-b00e-4ffb-a5f7-9f9ac5d2a2f8)
 
 ---
 
 ## 8. Check Node Liveness
 Your node will start producing greeen blocks in the dashboard
 
-[image]
+![Image](https://github.com/user-attachments/assets/78843d3b-e55b-4c94-8749-37d9ed968bd7)
 
 ---
