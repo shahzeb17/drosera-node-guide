@@ -216,7 +216,6 @@ drosera-operator register --eth-rpc-url RPC --eth-private-key PV_KEY
 ---
 
 ## 5. Open Ports
-**NOT FOR GOOGLE CLOUD VPS**
 ```bash
 # Enable firewall
 sudo ufw allow ssh
