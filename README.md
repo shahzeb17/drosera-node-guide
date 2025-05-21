@@ -168,7 +168,7 @@ Add the following codes at the bottom of `drosera.toml`:
 private_trap = true
 whitelist = ["Operator_Address"]
 ```
-* Replace `Operator_Address` with your EVM wallet `Public Address` between " " symbols
+* Replace `ethereum_rpc = https://ethereum-holesky-rpc.publicnode.com` with your own `Ethreum RPC`, change `block_sample_size = 10` from to `block_sample_size = 5`, add `private_trap = true` after `private = true` and Replace `Operator_Address` with your EVM wallet `Public Address` between " " symbol.
 * Your `Public Address` is your `Operator_Address`.
 
 **2- Update Trap Configuration:**
